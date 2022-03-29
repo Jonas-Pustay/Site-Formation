@@ -1,0 +1,125 @@
+body html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    overflow-x: hidden
+}
+
+/*Header*/
+header nav ul li a {
+    color: black;
+    font-size: calc(0.85rem + 0.85vw);
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #142580;
+    text-decoration: none;
+}
+
+header nav ul li {
+    margin-top: 35px;
+}
+
+/*Search Bar*/
+.search-container {
+    align-content: center;
+    text-align: center;
+    margin-left: 7.5%;
+}
+
+input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: 1px solid;
+    border-radius: 0px;
+}
+
+.search-container button {
+    float: none;
+    padding: 6px 10px;
+    margin-right: 150px;
+    background: #ddd;
+    font-size: 17px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+    .search-container button:hover {
+        background: #ccc;
+    }
+
+input:focus {
+    outline: none;
+}
+
+/*Grid*/
+#Container {
+    box-shadow: 0 0 20px -10px;
+    min-width: 25%;
+    width: 25%;
+    height: calc(20vw + 2.5vh);
+    display: grid;
+    text-align: center;
+    margin-left: 6.5%;
+    margin-top: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+}
+
+#Container button {
+    background: #2015ff;
+    min-height: 15px;
+    max-height: 75px;
+    height: 100%;
+    width: 90%;
+    border-radius: 5px;
+    height: 35px;
+    color: white;
+    border: none;
+    font-size: calc(0.75vw + 0.25vh);
+}
+
+    #Container p {
+        font-size: calc(0.85vw + 0.25vh);
+    }
+
+    #Container h1 {
+        font-size: calc(0.85vw + 0.25vh);
+    }
+
+/*Footer*/
+.site-footer {
+    background-color: #fff;
+    padding: auto;
+    font-size: 20px;
+    color: #737373;
+    border-top: solid 1px #26272b;
+    width: 100%;
+    margin-top: 150px;
+}
+
+    .site-footer a:hover {
+        color: #142580;
+        text-decoration: none;
+    }
+
+.footer-links li {
+    display: inline;
+}
+
+.site-footer {
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+    color: #26272b;
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 25px;
+}
+
